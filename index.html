@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Push Up Reminder App</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/desktop.style.css">
+    <link rel="stylesheet" href="css/mobile.style.css">
 
     <script>
         // temporarily not supported on mobile devices
-        if (window.innerWidth < 600) {
-            window.location.href = 'mobile.html';
-        }
+        // if (window.innerWidth < 600) {
+        //     window.location.href = 'mobile.html';
+        // }
     </script>
+
+    <script src="js/setBackgroundImage.js"></script>
 </head>
 <body>
-    <img src="images/background.jpg" id="background_image">
+    <img src="" id="background_image">
     <div id="main">
-        <header></header>
+        <header>
+            <!-- <button id="settings_button">Settings  </button> -->
+        </header>
         <section id="main_text">
             <h1>Push-up Reminder</h1>
             <h2>When you've been sitting in front of the computer screen for a long time, <br> it's time to get out of your chair! Let the Push-up Reminder be your cue <br> to stand up, tighten those muscles, and bring energy back to your day.</h2>

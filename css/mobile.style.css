@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+    #background_image {
+        position: fixed;
+        top: 30%;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+        transform: scale(2);  
+    }
+
+    #main_text {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    #go_button {
+        top: 3rem;
+    }
+}
